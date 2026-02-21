@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SKILL UP</title>
+<link rel="stylesheet" type="text/css" href="css/intento.css">
+</head>
+<body>
+
+<h1>CENTRO DE CURSOS CREATIVOS</h1>
+
+<div>
+    <img src="img/col.jpeg" class="centro">
+</div>
+
+<div class="barra-cursos">
+    <span class="titulo-barra">CURSOS DISPONIBLES</span>
+
+    <a href="#dibujo">Dibujo</a>
+    <a href="#ejercicio">Ejercicio</a>
+    <a href="#manualidades">Manualidades</a>
+    <a href="#matematicas">Matemáticas</a>
+    <a href="#ciberseguridad">Ciberseguridad</a>
+
+    <li><a href="#" id="btnLogin">Iniciar sesión</a></li>
+<li id="usuarioMenu" style="display:none;">
+    <span id="correoUsuario"></span>
+    <a href="#" id="cerrarSesion"> Cerrar Sesion</a>
+</li>
+</div>
+
+<div class="galeria">
+
+<div class="item">
+    <img src="img/dib.jpg" id="dibujo">
+    <div class="info">
+        <h2>DIBUJO</h2>
+        <p>Convierte tu creatividad en arte con técnicas modernas.</p>
+        <a href="dibu.html" class="btn-curso">Ver más</a>
+    </div>
+</div>
+
+<div class="item">
+    <img src="img/ejer.jpeg" id="ejercicio">
+    <div class="info">
+        <h2>EJERCICIO</h2>
+        <p>Activa tu cuerpo y mejora tu energía con rutinas dinámicas.</p>
+        <a href="ejer.html" class="btn-curso">Ver más</a>
+    </div>
+</div>
+
+<div class="item">
+    <img src="img/man.jpeg" id="manualidades">
+    <div class="info">
+        <h2>MANUALIDADES</h2>
+        <p>Diseña y crea proyectos originales paso a paso.</p>
+        <a href="manu.html" class="btn-curso">Ver más</a>
+    </div>
+</div>
+
+<div class="item">
+    <img src="img/mat.jpeg" id="matematicas">
+    <div class="info">
+        <h2>MATEMÁTICAS</h2>
+        <p>Desarrolla pensamiento lógico y resolución de problemas.</p>
+        <a href="mate.html" class="btn-curso">Ver más</a>
+    </div>
+</div>
+
+<div class="item">
+    <img src="img/seg.jpeg" id="ciberseguridad">
+    <div class="info">
+        <h2>CIBERSEGURIDAD</h2>
+        <p>Aprende a proteger información y navegar con seguridad.</p>
+        <a href="ciber.html" class="btn-curso">Ver más</a>
+    </div>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Centro de Cursos |
+        <a href="politicas.html">Políticas</a> |
+        <a href="privacidad.html">Privacidad</a>
+    </p>
+</footer>
+
+<div id="modalLogin" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Iniciar sesión</h2>
+
+    <input type="email" id="correo" placeholder="Correo electrónico">
+    <input type="password" id="password" placeholder="Contraseña">
+
+    <button id="iniciarSesion">Entrar</button>
+  </div>
+</div>
+
+<script src="js/intento.js"></script>
+
+</body>
+</html>
